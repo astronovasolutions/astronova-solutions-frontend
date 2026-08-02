@@ -1,0 +1,2 @@
+const stats=[['100%','Responsive'],['24/7','Digital Presence'],['SEO','Ready'],['API','First']]
+export default function StatsSection(){return <section className="border-y border-white/10 py-10"><div className="container-shell grid grid-cols-2 gap-6 text-center md:grid-cols-4">{stats.map(([a,b])=><div key={b}><div className="text-3xl font-black text-cyan-400">{a}</div><div className="mt-1 text-sm text-slate-400">{b}</div></div>)}</div></section>}

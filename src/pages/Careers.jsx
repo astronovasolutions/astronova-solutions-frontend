@@ -1,0 +1,1 @@
+export default function Careers(){return <section className="section-space"><div className="container-shell"><h1 className="text-5xl font-black">Careers</h1><p className="mt-5 text-slate-400">Future opportunities at Astronova Solutions will appear here.</p></div></section>}

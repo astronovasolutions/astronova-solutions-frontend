@@ -1,0 +1,1 @@
+export default function PrivacyPolicy(){return <section className="section-space"><div className="container-shell max-w-3xl"><h1 className="text-5xl font-black">Privacy Policy</h1><p className="mt-6 text-slate-400">Placeholder policy page. Replace with reviewed legal content before production launch.</p></div></section>}
