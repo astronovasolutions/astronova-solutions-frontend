@@ -181,7 +181,9 @@
 
 
 
-
+import ScrollProgress from "./components/ui/ScrollProgress";
+import CursorGlow from "./components/ui/CursorGlow";
+import MouseGlow from "./components/ui/MouseGlow";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
 import Section from "./components/common/Section";
@@ -193,6 +195,13 @@ import Button from "./components/common/Button";
 function App() {
   return (
     <>
+
+      <ScrollProgress />
+
+      {/* <CursorGlow /> */}
+
+      <MouseGlow className="min-h-screen bg-[#020617] flex flex-col justify-center items-center px-6">
+
       <Navbar />
 
       <Section>
@@ -224,6 +233,7 @@ function App() {
       </Section>
 
       <Footer />
+       </MouseGlow>
     </>
   );
 }
